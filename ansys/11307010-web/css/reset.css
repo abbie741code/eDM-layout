@@ -1,0 +1,232 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  /* font-size: 100%;
+	font: inherit; */
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1.8;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+/* table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+ */
+.bg-orange {
+  background-color: #ffb71b;
+}
+.text-orange {
+  color: #ffb71b;
+}
+
+.text-black {
+  color: #252529 !important;
+}
+
+.border-bottom-orange {
+  border-bottom: 1px solid #ffb71b;
+}
+
+.btn-warning {
+  background-color: #ffb71b;
+  color: #000000;
+}
+
+/* .ab-h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+.ab-h2 {
+  font-size: 48px;
+  font-weight: bold;
+}
+.ab-h3 {
+  font-size: 45px;
+  font-weight: bold;
+}
+.ab-h4 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.ab-fs-3 {
+  font-size: 26px;
+}
+
+.ab-fs-2 {
+  font-size: 22px;
+}
+.ab-fs-1 {
+  font-size: 18px;
+} */
+
+/* 手机版样式 */
+/* @media only screen and (max-width: 768px) {
+  .ab-h1 {
+    font-size: 90%;
+  }
+  .ab-h2 {
+    font-size: 90%;
+  }
+  .ab-h3 {
+    font-size: 90%;
+  }
+  .ab-h4 {
+    font-size: 90%;
+  }
+
+  .ab-fs-3 {
+    font-size: 90%;
+  }
+
+  .ab-fs-2 {
+    font-size: 90%;
+  }
+
+  .ab-fs-1 {
+    font-size: 90%;
+  }
+} */
+
+
+.fs-7{
+  font-size: 0.75rem;
+}
+
+
+.fs-8{
+  font-size: 0.5rem;
+}
+
+.container{
+  max-width: 1140px;
+}
+
+.text-end{
+  
+}
+
+
+th {
+  vertical-align: middle;
+}
+
+a{
+  color: inherit !important;
+}

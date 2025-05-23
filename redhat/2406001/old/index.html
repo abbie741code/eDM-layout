@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ansible 自動化實機操作工作坊</title>
+
+    <style>
+      /* * {
+        outline: 2px solid hsl(175, 69%, 75%);
+      } */
+    </style>
+  </head>
+
+  <body
+    style="
+      background-color: #ffffff;
+      padding: 0px;
+      margin: 0;
+      border-spacing: 0px;
+    ">
+    <!-- 若網頁無法正常顯示，請點選 -->
+    <table
+      align="center"
+      border="0"
+      cellpadding="0"
+      cellspacing="0"
+      style="
+        margin: 0 auto;
+        padding: 0;
+        text-align: center;
+        padding: 29px 0px;
+        background-color: #ffffff;
+      "
+      width="800">
+      <tr>
+        <td height="16">
+          <span
+            style="
+              font-size: 10px;
+              font-family: 微軟正黑體, 'Microsoft JhengHei', Arial, Helvetica,
+                sans-serif;
+            ">
+            若網頁無法正常顯示，請點選
+            <a
+              href="https://eventforevers.com/edm/redhat/2406001/index.html"
+              style="text-decoration: underline"
+              target="_blank">
+              <span style="text-decoration: underline">這裡</span>
+            </a>
+          </span>
+        </td>
+      </tr>
+    </table>
+
+    <table
+      align="center"
+      border="0"
+      cellpadding="0"
+      cellspacing="0"
+      style="
+        margin: 0 auto;
+        padding: 0;
+        border-spacing: 0px;
+        font-size: 13px;
+        font-family: 微軟正黑體, sans-serif;
+        text-align: justify;
+        text-justify: distribute;
+        background: #eeeeef !important;
+        border-collapse: collapse;
+        line-height: 15px;
+      "
+      width="800">
+      <tr>
+        <!-- banner -->
+        <td style="max-width: 960px">
+          <img
+            class="img_block"
+            border="0"
+            hspace="0"
+            vspace="0"
+            width="960"
+            src="https://eventforevers.com/edm/redhat/2406001/images/banner.jpg" />
+          <!-- 內文section -->
+          <table
+            class="full-width"
+            align="center"
+            width="800"
+            border="0"
+            cellpadding="0"
+            cellspacing="0">
+            <tr>
+              <td align="center" style="padding: 20px 0 20px">
+                <table
+                  align="center"
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  width="100%">
+                  <tr>
+                    <td
+                      align="center"
+                      width="100%"
+                      style="
+                        font-family: 微軟正黑體, sans-serif;
+                        font-size: 22px;
+                        line-height: 23px;
+                        color: #ee0000;
+                        font-weight: bold;
+                        padding: 10px 0;
+                      ">
+                      <img
+                        border="0"
+                        width="30"
+                        src="https://eventforevers.com/edm/redhat/2406001/images/icon.png"
+                        valign="top" />
+                      <span>
+                        多功能 A 廳基礎班 - 101 Red Hat Ansible workshop
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td
+                      align="left"
+                      width="100%"
+                      style="color: #231f20;">
+                      <p
+                        style="
+                          font-family: 微軟正黑體, 'Microsoft JhengHei', Arial,
+                            Helvetica, sans-serif;
+                          font-size: 16px;
+                          line-height: 28px;
+                          margin-bottom: 0px;
+                          color: #231f20;
+                        ">
+                        如果你從未嘗試過 Red Hat Ansible Automation
+                        Platform，歡迎報名參加體驗。<br>
+                        本工作坊適合那些想要了解 Ansible 自動化的基礎知識，並了解工作原理以及如何運用於自動化任務。此外，將提供紅帽產品與上游專案之間的差異資訊。
+                        <br />
+                        <br />
+                        如果你對 Ansible
+                        自動化還不熟悉，本工作坊將提供分為兩大部分教學：
+                      </p>
+
+                      <!--ul li 1-2 -->
+                      <p
+                        style="
+                          font-family: 微軟正黑體, 'Microsoft JhengHei', Arial,
+                            Helvetica, sans-serif;
+                          font-size: 16px;
+                          line-height: 28px;
+                          margin: 0px;
+                          
+
+                          color: #231f20;
+                        ">
+                        <img
+                          border="0"
+                          width="20"
+                          src="https://eventforevers.com/edm/redhat/2406001/images/1.png"
+                          valign="top" />
+                        <span style="padding: 0; margin: 0">
+                          從理解基礎命令行 (Command line) 活動開始
+                        </span>
+                        <br />
+                        <img
+                          border="0"
+                          width="20"
+                          src="https://eventforevers.com/edm/redhat/2406001/images/2.png"
+                          valign="top" />
+                        <span style="padding: 0; margin: 0">
+                          將所學應用於 Ansible 自動化控制器 (automation
+                          controller ) 到企業案例中。
+                        </span>
+                        <br />
+                        <br />
+                        您將編寫您的第一個 Ansible Playbook，進行 Jinja
+                        模板的編寫，並操作高級別的 Ansible 角色
+                        (Roles)。接下來，您將開始進行自動化控制器 (automation
+                        controller)，了解庫存和憑證管理、項目、任務模板、調查、工作流程等。
+
+                        <br />
+                        <br />
+                        完成本實驗操作後，您將準備好開始使用 Ansible
+                        自動化平台來滿足您的自動化需求。
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+
+          <!-- 最適合-pic -->
+          <table
+            align="center"
+            width="100%"
+            border="0"
+            cellspacing="0"
+            cellpadding="0">
+            <tr>
+              <td>
+                <img
+                  src="https://eventforevers.com/edm/redhat/2406001/images/q.png"
+                  alt="Read More"
+                  width="300" />
+              </td>
+            </tr>
+            <tr></tr>
+          </table>
+          <!-- 最適合-content -->
+          <table
+            class="full-width"
+            align="center"
+            width="800"
+            border="0"
+            cellpadding="0"
+            cellspacing="0">
+            <tr>
+              <td align="center">
+                <table
+                  align="center"
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  width="100%">
+                  <tr>
+                    <td
+                      align="left"
+                      width="100%"
+                      style="color: #231f20;">
+                      <p
+                        style="
+                          font-family: 微軟正黑體, 'Microsoft JhengHei', Arial,
+                            Helvetica, sans-serif;
+                          font-size: 16px;
+                          line-height: 28px;
+                          color: #231f20;
+                        ">
+                        DevOps
+                        工程師，運維工程師，系統工程師，發布工程師，系統管理員，開發人員，運維人員，網路工程師，安全專家以及任何對
+                        IT 自動化感興趣的人士。
+                      </p>
+                      <p
+                        style="
+                          font-family: 微軟正黑體, 'Microsoft JhengHei', Arial,
+                            Helvetica, sans-serif;
+                          font-size: 18px;
+                          line-height: 28px;
+                          font-weight: bold;
+                          color: #ee0000;
+                          margin: 0;
+                        ">
+                        注意事項
+                      </p>
+                      <!--ul li 1-2 -->
+                      <p
+                        style="
+                          font-family: 微軟正黑體, 'Microsoft JhengHei', Arial,
+                            Helvetica, sans-serif;
+                          font-size: 16px;
+                          line-height: 28px;
+                          margin: 0;
+                          color: #231f20;
+                        ">
+                        <img
+                          border="0"
+                          width="12"
+                          src="https://eventforevers.com/edm/redhat/2406001/images/att-icon.png"
+                          valign="middle" />
+                          &nbsp;
+                        <span style="padding: 0; margin: 0">
+                          本實機操作體驗工作坊為入門課程
+                        </span>
+                        <br />
+                        <img
+                          border="0"
+                          width="12"
+                          src="https://eventforevers.com/edm/redhat/2406001/images/att-icon.png"
+                          valign="middle" />
+                          &nbsp;
+                        <span style="padding: 0; margin: 0">
+                          對於與 Linux 系統工作有基本的了解
+                        </span>
+                        <br />
+                       
+                        <img
+                          border="0"
+                          width="12"
+                          src="https://eventforevers.com/edm/redhat/2406001/images/att-icon.png"
+                          valign="middle" />
+                          &nbsp;
+                        <span style="padding: 0; margin: 0">
+                          報名學員
+                        </span>
+                        <span style="padding: 0; margin: 0 ;color: #ee0000; font-weight: bold;">
+                          必須自行攜帶 / 使用一台具有管理權限並能夠 SSH 到公共雲端中環境的筆記型電腦。
+                        </span>
+
+                        <br />
+                        <img
+                          border="0"
+                          width="12"
+                          src="https://eventforevers.com/edm/redhat/2406001/images/att-icon.png"
+                          valign="middle" />
+                          &nbsp;
+                        <span style="padding: 0; margin: 0">
+                        必須攜帶 / 使用安裝了 Chrome 73+、Firefox 60+、Edge 40+ 或 Safari 12+ 的筆記型電腦。
+                        </span>
+                  
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+
+          <!-- btn -->
+          <table
+            align="center"
+            width="100%"
+            border="0"
+            cellspacing="0"
+            cellpadding="0">
+            <tr>
+              <td style="padding: 20px 0">
+                <img
+                  src="https://eventforevers.com/edm/redhat/2406001/images/btn-small.png"
+                  alt="Read More"
+                  width="300" />
+              </td>
+            </tr>
+            <tr></tr>
+          </table>
+
+          <!-- btn -->
+          <table
+            align="center"
+            width="100%"
+            border="0"
+            cellspacing="0"
+            cellpadding="0">
+            <tr>
+              <td align="center" style="padding: 20px 0">
+                <a href="https://testfly.rooster.tw/bornaActivity/registerV2.php?id=287" target="_blank" rel="noopener noreferrer">
+                  <img
+                  src="https://eventforevers.com/edm/redhat/2406001/images/btn-a.png"
+                  alt="Read More"
+                  width="450" 
+                  style="width: 450px;"/>
+                </a>
+                
+              </td>
+            </tr>
+          </table>
+
+          <table></table>
+
+
+        </td>
+      </tr>
+    </table>
+
+    <!-- b- -->
+    <table
+      align="center"
+      border="0"
+      cellpadding="0"
+      cellspacing="0"
+      style="
+        margin: 0 auto;
+        padding: 0;
+        border-spacing: 0px;
+        font-size: 13px;
+        font-family: 微軟正黑體, sans-serif;
+        text-align: justify;
+        text-justify: distribute;
+        background: #ffffff;
+        border-collapse: collapse;
+        line-height: 15px;
+      "
+      width="800">
+      <tr>
+        <td style="width: 960px">
+          <!-- 內文section -->
+          <table
+            class="full-width"
+            align="center"
+            width="800"
+            border="0"
+            cellpadding="0"
+            cellspacing="0">
+            <tr>
+              <td align="center" style="padding: 20px 0 20px">
+                <table
+                  align="center"
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  width="100%">
+                  <tr>
+                    <td
+                      align="center"
+                      width="100%"
+                      style="
+                        font-family: 微軟正黑體, sans-serif;
+                        font-size: 22px;
+                        line-height: 23px;
+                        color: #ee0000;
+                        font-weight: bold;
+                        padding: 10px 0;
+                      ">
+                      <img
+                        border="0"
+                        width="30"
+                        src="https://eventforevers.com/edm/redhat/2406001/images/icon.png"
+                        valign="top" />
+                      <span>
+                        多功能 B 廳進階班 - Red Hat Event-Driven Ansible
+                        workshop
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td
+                      align="left"
+                      width="100%"
+                      style="color: #231f20;">
+                      <p
+                        style="
+                          font-family: 微軟正黑體, 'Microsoft JhengHei', Arial,
+                            Helvetica, sans-serif;
+                          font-size: 16px;
+                          line-height: 28px;
+                          margin-bottom: 20px;
+                          color: #231f20;
+                        ">
+                        作為 Red Hat® Ansible®  Automation Platform 的一部分，事件驅動的 Ansible (Event-driven Ansible, EDA) 能夠智能處理 IT 環境符合指定條件的離散事件，採取對事件最適當的回應，執行自動化操作以解決或補救事件。本工作坊將演示事件驅動的 Ansible 如何提供所需的事件處理功能，以自動化節約耗時的任務並應對任何 IT 領域中的變化因素。 <br><br>
+
+                        在本工作坊中，我們將介紹 EDA 的基礎知識，包括原始碼、規則和操作等基本概念，以及實際操作 Ansible Rulebook CLI、Rulebooks、Source Plugins 和 EDA content collections 等技術。
+                        本工作坊要求學生具備基礎的 Ansible 命令行 (Command-line Ansible)、Visual Studio Code 和 Git 知識。<br><br>
+                        
+                        報名 EDA 實機操作工作坊，了解事件驅動的 Ansible 如何幫助您自動化攻克 IT 環境的各種任務。
+                        
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+
+          <!-- 最適合-pic -->
+          <table
+            align="center"
+            width="100%"
+            border="0"
+            cellspacing="0"
+            cellpadding="0">
+            <tr>
+              <td>
+                <img
+                  src="https://eventforevers.com/edm/redhat/2406001/images/q.png"
+                  alt="Read More"
+                  width="300" />
+              </td>
+            </tr>
+            <tr></tr>
+          </table>
+          <!-- 最適合-content -->
+          <table
+            class="full-width"
+            align="center"
+            width="800"
+            border="0"
+            cellpadding="0"
+            cellspacing="0">
+            <tr>
+              <td align="center">
+                <table
+                  align="center"
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  width="100%">
+                  <tr>
+                    <td
+                      align="left"
+                      width="100%"
+                      style="color: #231f20;">
+                      <p
+                        style="
+                          font-family: 微軟正黑體, 'Microsoft JhengHei', Arial,
+                            Helvetica, sans-serif;
+                          font-size: 16px;
+                          line-height: 28px;
+                          color: #231f20;
+                        ">
+                       高級/進階 Ansible 用戶和 SRE 推薦參加。<br>
+                       本工作坊介紹了可觀測性 (observability) 和自動化領域。
+                      </p>
+                      <p
+                        style="
+                          font-family: 微軟正黑體, 'Microsoft JhengHei', Arial,
+                            Helvetica, sans-serif;
+                          font-size: 18px;
+                          line-height: 28px;
+                          font-weight: bold;
+                          color: #ee0000;
+                          margin: 0;
+                        ">
+                        注意事項
+                      </p>
+                      <!--ul li 1-2 -->
+                      <p
+                        style="
+                          font-family: 微軟正黑體, 'Microsoft JhengHei', Arial,
+                            Helvetica, sans-serif;
+                          font-size: 16px;
+                          line-height: 28px;
+                          margin: 0;
+                          color: #231f20;
+                        ">
+                        <img
+                          border="0"
+                          width="12"
+                          src="https://eventforevers.com/edm/redhat/2406001/images/att-icon.png"
+                          valign="middle" />
+                          &nbsp;
+                        <span style="padding: 0; margin: 0">
+                          本實機操作體驗工作坊為進階課程
+                        </span>
+                        <br />
+                        <img
+                          border="0"
+                          width="12"
+                          src="https://eventforevers.com/edm/redhat/2406001/images/att-icon.png"
+                          valign="middle" />
+                          &nbsp;
+                        <span style="padding: 0; margin: 0">
+                          學員建議具有構建 Ansible Playbook 和使用 AAP 的經驗
+                        </span>
+                        <br />
+                    
+                        <img
+                          border="0"
+                          width="12"
+                          src="https://eventforevers.com/edm/redhat/2406001/images/att-icon.png"
+                          valign="middle" />
+                          &nbsp;
+                        <span style="padding: 0; margin: 0">
+                          基本理解 GIT 和 Source Control
+                        </span>
+                        <br />
+                        
+                        <img
+                          border="0"
+                          width="12"
+                          src="https://eventforevers.com/edm/redhat/2406001/images/att-icon.png"
+                          valign="middle" />
+                          &nbsp;
+                        <span style="padding: 0; margin: 0">
+                          報名學員
+                        </span>
+                        <span style="padding: 0; margin: 0 ;color: #ee0000; font-weight: bold;">
+                          必須自行攜帶 / 使用一台具有管理權限並能夠 SSH 到公共雲端中環境的筆記型電腦。
+                        </span>
+
+                        <br />
+                        <img
+                          border="0"
+                          width="12"
+                          src="https://eventforevers.com/edm/redhat/2406001/images/att-icon.png"
+                          valign="middle" />
+                          &nbsp;
+                        <span style="padding: 0; margin: 0">
+                        必須攜帶 / 使用安裝了 Chrome 73+、Firefox 60+、Edge 40+ 或 Safari 12+ 的筆記型電腦。
+                        </span>
+                  
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+    
+
+          <!-- btn -->
+          <table
+            align="center"
+            width="100%"
+            border="0"
+            cellspacing="0"
+            cellpadding="0">
+            <tr>
+              <td style="padding: 20px 0">
+                <img
+                  src="https://eventforevers.com/edm/redhat/2406001/images/btn-small.png"
+                  alt="Read More"
+                  width="300" />
+              </td>
+            </tr>
+            <tr></tr>
+          </table>
+
+          <!-- btn -->
+          <table
+            align="center"
+            width="100%"
+            border="0"
+            cellspacing="0"
+            cellpadding="0">
+            <tr>
+              <td align="center" style="padding: 20px 0">
+                <a href="https://testfly.rooster.tw/bornaActivity/registerV2.php?id=292" target="_blank" rel="noopener noreferrer">
+                  <img
+                  src="https://eventforevers.com/edm/redhat/2406001/images/btn-b.png"
+                  alt="Read More"
+                  width="450" 
+                  style="width: 450px;"/>
+                </a>
+                
+              </td>
+            </tr>
+          </table>
+
+          <!-- agenda -->
+          <table
+            align="center"
+            width="100%"
+            border="0"
+            cellspacing="0"
+            cellpadding="0">
+            <tr>
+              <td style="padding-bottom: 30px">
+                <center>
+                  <img
+                    src="https://eventforevers.com/edm/redhat/2406001/images/agenda.jpg"
+                    alt="Read More"
+                    width="960" />
+                </center>
+              </td>
+            </tr>
+          </table>
+          <!-- btn -small-->
+          <table
+            align="center"
+            width="100%"
+            border="0"
+            cellspacing="0"
+            cellpadding="0">
+            <tr>
+              <td style="padding: 20px 0">
+                <img
+                  src="https://eventforevers.com/edm/redhat/2406001/images/btn-small.png"
+                  alt="Read More"
+                  width="300" />
+              </td>
+            </tr>
+            <tr></tr>
+          </table>
+          <!-- btn －a -->
+          <table
+            align="center"
+            width="100%"
+            border="0"
+            cellspacing="0"
+            cellpadding="0">
+            <tr>
+              <td align="center" style="padding: 20px 0">
+                <a href="https://testfly.rooster.tw/bornaActivity/registerV2.php?id=287" target="_blank" rel="noopener noreferrer">
+                  <img
+                  src="https://eventforevers.com/edm/redhat/2406001/images/btn-a.png"
+                  alt="Read More"
+                  width="450" 
+                  style="width: 450px;"/>
+                </a>
+                
+              </td>
+            </tr>
+          </table>
+          <!-- btn -b  -->
+          <table
+            align="center"
+            width="100%"
+            border="0"
+            cellspacing="0"
+            cellpadding="0">
+            <tr>
+              <td align="center" style="padding: 20px 0">
+                <a href="https://testfly.rooster.tw/bornaActivity/registerV2.php?id=292" target="_blank" rel="noopener noreferrer">
+                  <img
+                  src="https://eventforevers.com/edm/redhat/2406001/images/btn-b.png"
+                  alt="Read More"
+                  width="450" 
+                  style="width: 450px;"/>
+                </a>
+                
+              </td>
+            </tr>
+          </table>
+
+          <!-- footer-all-table -->
+          <table>
+            <!-- 若您對此活動有任何問題 -->
+            <tr>
+              <td
+                bgcolor="#ffffff"
+                align="center"
+                border="0"
+                cellpadding="0"
+                style="
+                  font-family: 微軟正黑體, sans-serif;
+                  font-size: 18px;
+                  line-height: 23px;
+                  color: #000000;
+                  font-weight: bold;
+                  padding-top: 20px;
+                ">
+                <img
+                  border="0"
+                  width="30"
+                  src="https://eventforevers.com/edm/redhat/2406001/images/icon-m.png"
+                  valign="top" />
+                <span>
+                  &nbsp;若您對此活動有任何問題，
+                  <br />
+
+                  請聯繫您的業務經理或 Red Hat 活動小組：
+                  <a
+                    href="mailto:redhat_twevent@borna.com.tw"
+                    style="color: #000000">
+                    redhat_twevent@borna.com.tw
+                  </a>
+                </span>
+                <p
+                  style="
+                    font-family: 微軟正黑體, sans-serif;
+                    font-size: 18px;
+                    line-height: 23px;
+                    color: #ee0000;
+                    font-weight: bold;
+                  ">
+                  **因為座位有限，恕不接受現場報名及無法臨時更改報名場次**
+                </p>
+              </td>
+            </tr>
+
+            <!-- 注意： -->
+            <tr>
+              <td
+                bgcolor="#ffffff"
+                align="center"
+                border="0"
+                cellpadding="0"
+                style="
+                  color: #000000;
+                  font-family: 微軟正黑體, sans-serif;
+                  font-size: 16px;
+                  line-height: 23px;
+                  text-align: left;
+                  text-justify: inter-word;
+                  padding: 20px 80px 20px 80px;
+                ">
+                注意：
+                <br />
+                Red Hat
+                致力於保障客戶、合作夥伴和員工的健康與安全。所有參加者將被要求遵守
+                Red Hat 和當地有關 COVID-19
+                的指引。如果您感覺不適或有任何病毒感染的症狀，請勿參加。請注意，所有的指引都可能會依據當時狀況變更。
+              </td>
+            </tr>
+
+            <!--  隱私權聲明：-->
+            <tr>
+              <td
+                style="background-color: #d3d3d3; padding: 20px 80px 20px 80px">
+                <p
+                  style="
+                    font-size: 14px;
+                    line-height: 23px;
+                    font-family: 微軟正黑體, 'Microsoft JhengHei', Arial,
+                      Helvetica, sans-serif;
+                    color: #000000;
+                    text-align: justify;
+                  ">
+                  <span style="font-weight: bold">隱私權聲明：</span>
+                  <br />
+
+                  感謝您報名參加本活動。Red Hat
+                  紅帽軟體股份有限公司（以下稱本公司）將蒐集您透過本活動報名機制及在本活動過程中所提供之個人資料（包括姓名、職稱、任職公司、電子郵件信箱、電話及地址），予以處理、利用或進行國際傳輸，於台灣不定期但持續為您提供產品、服務、技術、活動或研討會相關訊息、製作客戶名單、進行統計分析或市場調查。請注意，本公司會將您提供之個人資料與本活動協辦單位分享。本活動協辦單位得於台灣不定期且持續為您提供相關產品、服務、技術、活動或研討會相關訊息、製作客戶名單、進行統計分析或市場調查。除此之外，未經您的許可，本公司不會將您的個人資訊與第三人分享，除非係為完成您所請求的服務或交易所必要或法律要求者。有關您於本活動提供之個人資料，您得依照台灣個人資料保護法相關規定向本公司或本活動贊助單位請求查詢、閱覽、製給複本、補充、更正、停止蒐集/處理/利用、或刪除。
+                </p>
+              </td>
+            </tr>
+
+            <!-- footer -->
+            <tr>
+              <td align="center">
+                <table
+                  width="960"
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  style="background-color: #ffffff; padding-top: 20px">
+                  <tr>
+                    <td width="80">&nbsp;</td>
+                    <td
+                      align="center"
+                      style="
+                        font-size: 12px;
+                        line-height: 23px;
+                        color: #a1a1a1;
+                        font-family: 微軟正黑體, sans-serif;
+                        text-align: center;
+                        border-bottom: 4px #f12534 solid;
+                      ">
+                      "紅帽"是紅帽公司標識的商標或註冊商標， Linux 是 Linus
+                      Torvalds 的註冊商標。
+                      <br />
+                      © 2024 年紅帽公司保留所有權利。
+                      <br />
+                      紅帽軟體台灣分公司
+                      <br />
+                      ​台北市信義區松高路​9​號​2​5​樓​
+                      <br />
+                      <br />
+                    </td>
+                    <td width="80">&nbsp;</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+
+    <!-- inner container -->
+    <!-- container width 800px -->
+  </body>
+</html>

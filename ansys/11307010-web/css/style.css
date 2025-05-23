@@ -1,0 +1,273 @@
+html,
+body {
+  /* height: 100%;
+  margin: 0; */
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+
+
+@media (min-width: 992px) {
+  .nav-ms {
+    margin-left:25%;
+  }
+}
+
+
+
+
+.btn-outline-light:hover {
+  background-color: #fff; /* 修改背景顏色 */
+  color: #000; /* 修改文字顏色 */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* 添加陰影效果 */
+  transform: scale(1.1);
+}
+
+.btn-outline-light {
+  transition: background-color 0.3s ease;
+}
+
+.btn-outline-light:hover {
+  transform: scale(1.1);
+}
+
+.nav-bg {
+  background-image: url(../images/nav-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* height: 14vh; */
+  /* z-index: 999; */
+}
+
+@media (max-width: 767px) {
+  /* .nav-bg {
+    height: 24vh;
+  } */
+}
+
+/* .banner-bg {
+  margin-top: calc(14vh - 3px);
+} */
+
+/* @media (max-width: 767px) {
+  .banner-bg {
+    margin-top: calc(21vh - 3px);
+  }
+} */
+
+.navbar-dark .navbar-nav .nav-link , .bg-dark{
+  color:#ffb71b !important;
+  background-color: #000000  !important;
+}
+
+.navbar a:hover {
+  color: #fff;
+}
+
+.banner-bg {
+  /* background-image: url(../images/banner-bg.png); */
+  /* background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 40vh; */
+  color: #ffb71b;
+  text-align: center;
+  padding: 40px; /* Adjust padding as needed */
+}
+
+.ansys2024-logo {
+  width: 350px;
+}
+
+@media (max-width: 767px) {
+  .ansys2024-phone img {
+    width: 60%;
+  }
+}
+
+.banner-text-w {
+  max-width: 500px;
+  margin: 1% 0;
+}
+
+.ansys-icon img {
+  width: 40px;
+}
+
+@media (max-width: 767px) {
+  .ansys-icon img {
+    width: 30px;
+  }
+}
+
+.scroll-nav a {
+  margin: 5px 15px 0px;
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffb71b;
+}
+
+.scroll-nav a:hover {
+  color: #ffae00;
+  transform: scale(1.1);
+}
+
+.form-check-input:checked {
+  background-color: #ffb71b;
+  border-color: #ffb71b;
+}
+
+.btn-black:hover {
+  background-color: #ffffff; /* 更改背景顏色 */
+}
+
+.btn-black {
+  transition: background-color 0.3s ease;
+  background-color: #000000;
+  color: #ffb71b;
+  border: 2px solid #000; /* 添加黑色邊框 */
+  transition: border-color 0.3s ease; /* 添加過渡效果 */
+}
+
+.btn-black:hover {
+  border-color: #ffb71b; /* 滑鼠懸停時更改邊框顏色 */
+  color: #ffb71b !important;
+}
+
+.form-control {
+  border: 2px solid #ffb71b;
+}
+
+.table-bordered tr td {
+  border: 2px solid #ffb71b;
+  padding: 0.5rem 1rem;
+}
+
+.border-orange {
+  border: 2px solid #ffb71b;
+}
+
+.border-end-orange {
+  border-bottom: 2px solid #ffb71b;
+}
+
+.judge {
+  text-align: center;
+}
+.judge img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.judge h3 {
+  margin-top: 10px;
+}
+
+/* upload page */
+/* 上傳鈕客製化 */
+
+#formFileLg {
+  display: none; /* Hide the default file input */
+}
+
+.orange-file-upload {
+  border: 2px solid #ffb71b; /* Orange border */
+  background-color: #ffb71b; /* Orange background color */
+  color: #fff; /* White text color */
+  padding: 15px 30px; /* Adjust padding as needed */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 1.2rem; /* Adjust font size as needed */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.orange-file-upload:hover {
+  background-color: #ffae00; /* Lighter shade of orange on hover */
+}
+
+/* .upload-file-container-w{
+  width: 1150px;
+} */
+
+@media (max-width: 1150px) {
+  .upload-w {
+    width: 90%;
+  }
+}
+
+.btn-outline-orange {
+  outline: #000000 1px solid;
+}
+
+.btn-upload-w {
+  width: 220px;
+}
+
+@media (max-width: 767px) {
+  .btn-upload-w {
+    width: 90%;
+  }
+}
+
+.ab-all-input-container {
+  max-width: 700px;
+}
+
+.speaker-photo-w {
+  max-width: 230px;
+}
+
+.register-btn {
+  transition: background-color 0.3s ease;
+}
+
+.register-btn:hover {
+  background-color: rgb(0, 0, 0) !important; /* 悬停时的背景颜色 */
+  color: #ffffff !important;
+  transform: scale(1.1);
+}
+
+.ansys-icon-footer img {
+  width: 170px;
+}
+
+@media (max-width: 767px) {
+  .ansys-icon-footer img {
+    width: 110px;
+  }
+}
+
+.scroll-top-icon img {
+  width: 50px;
+}
+.scroll-top-icon :hover {
+  transform: scale(1.1);
+}
+
+/* table垂直合併 */
+.table-container{
+  max-width: 600px;
+  margin: 0 auto;
+}
+.table-detail-p-container{
+  width: 150px;
+}
+
+.table-detail-container{
+  width: 400px;
+}

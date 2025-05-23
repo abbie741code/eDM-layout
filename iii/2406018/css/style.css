@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+html {
+	height: 100%;
+	width: 100%;
+}
+body {
+	height: 100% !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	width: 100% !important;
+	mso-line-height-rule: exactly;
+	font-family: 微軟正黑體, sans-serif;
+}
+div[style*="margin: 16px 0"] {
+ margin: 0 !important;
+}
+table, td, th {
+	line-height: 0;
+}
+img {
+	border: none;
+	height: auto;
+	line-height: 0;
+	outline: none;
+	text-decoration: none;
+	-ms-interpolation-mode: bicubic;
+	width:100%;
+	max-width:900px;
+}
+.top_font {
+	color: #666;
+	font-size: 11px;
+	line-height: 13px;
+	padding: 10px;
+}
+.top_font a {
+	color: #2b9af3;
+	text-decoration: none;
+	font-size: 11px;
+}
+.full-width {
+	width: 100% !important;
+}
